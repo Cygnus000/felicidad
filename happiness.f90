@@ -1,8 +1,8 @@
-program DrivenOscilator
+program Happiness
 !Resuelucion la ecuacion de un oscilador forzado X''(t)+beta*x'(t)+x(t)=F(t) con runge kutta de orden 2
 implicit none
 
-real(kind=8) t0,tmax,dt,x0,y0,beta, rho
+real(kind=8) t0,tmax,dt,x0,y0,beta,rho
 real(kind=8), allocatable, dimension (:) :: t,x,y,f
 integer i,j,N
 
@@ -45,10 +45,10 @@ do i=1,N !runge kutta
   end do
 end do
 !**********************************************************************
-open(1,file='osc.dat') !llenando archivo
+open(1,file='hap.dat') !llenando archivo
 do i=0,N,1
   write(1,*) t(i),x(i),y(i),f(i)
 end do
 close(1)
 !**********************************************************************
-end program DrivenOscilator
+end program Happiness
