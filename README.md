@@ -4,3 +4,7 @@ Estos códigos se dessrrollaron usando el lenguaje fortran, en junio del 2019, p
 Se seleccionan ecuaciones diferenciales de interes, para resolverlas se usa el método de runge-Kutta de orden 2, ya que la precisión cuantitativa
 no era necesaria.
 Las ecuaciones diferenciales se transforman en un sistema acoplado de ecuaciones lineales y es este el que se resuelve.
+![Drogas](https://github.com/Cygnus000/felicidad/blob/main/Drugs.PNG)
+![Van](https://github.com/Cygnus000/felicidad/blob/main/van.PNG)
+![Van Caos](https://github.com/Cygnus000/felicidad/blob/main/vanCaos.PNG)
+![Strange](https://github.com/Cygnus000/felicidad/blob/main/strange.PNG)
